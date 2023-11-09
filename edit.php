@@ -82,9 +82,8 @@
     </select>
             <small id="occupationHelp" class="form-text text-muted">Please select your occupation.</small>
         </div>
-        <a href ="viewrecords.php" class="btn btn-info">Back to List</a>
-            <br/>
-        <button type="submit" name = "submit" class="btn btn-success btn-block">Save Changes</button>
+        <a href ="viewrecords.php" class="btn btn-default">Back to List</a>
+        <button type="submit" name = "submit" class="btn btn-success btn">Save Changes</button>
       
     </form>
 
