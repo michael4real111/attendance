@@ -37,7 +37,7 @@
             <label for="Parish">Parish</label>
             <select class="form-control" id="Parish" name="Parish">
             <?php while($r = $parishresults->fetch(PDO::FETCH_ASSOC)){ ?>
-                <option value ="<?php echo $r['parish_id'] ?>"><?php echo $r['name'];?></option>
+                <option value ="<?php echo $r['parish_id'] ?>"><?php echo $r['parish_name'];?></option>
                 <?php } ?>
     </select>
             <small id="parishHelp" class="form-text text-muted">Please select Parish.</small>
@@ -61,7 +61,7 @@
             <label for="occupation">Area of Expertise</label>
             <select class="form-control" id="occupation" name="occupation">
             <?php while($r = $occupationresults->fetch(PDO::FETCH_ASSOC)){ ?>
-                <option value ="<?php echo $r['occupation_id'] ?>"><?php echo $r['name'];?></option>
+                <option value ="<?php echo $r['occupation_id'] ?>"><?php echo $r['occupation_name'];?></option>
                 <?php } ?>
     </select>
             <small id="occupationHelp" class="form-text text-muted">Please select your occupation.</small>
