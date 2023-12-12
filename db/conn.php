@@ -1,8 +1,16 @@
 <?php
-    $host = '127.0.0.1';
-    $db = 'applications_db';
-    $user = 'root';
-    $pass = '';
+
+//Deveopment connection
+    //$host = '127.0.0.1';
+    //$db = 'applications_db';
+    //$user = 'root';
+    //$pass = '';
+    //$charset = 'utf8mb4';
+
+    $host = 'sql206.infinityfree.com';
+    $db = 'if0_35508637_db_applicants';
+    $user = 'if0_35508637';
+    $pass = 'ZgD8c9EIkp';
     $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
